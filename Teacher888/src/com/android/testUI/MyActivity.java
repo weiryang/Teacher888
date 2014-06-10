@@ -20,7 +20,7 @@ public class MyActivity extends Activity {
 		Intent intent = getIntent();
 		boolean clickble = intent.getBooleanExtra("clickble", true);
 		
-	      home_img_bn_Layout = (LinearLayout) findViewById(R.id.bottom_home_layout_ly);
+	      	home_img_bn_Layout = (LinearLayout) findViewById(R.id.bottom_home_layout_ly);
 	        home_img_bn_Layout.setOnClickListener(clickListener_home);
 	        home_img_bn_Layout.setSelected(clickble);
 
